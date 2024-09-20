@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "n:\\program files\\ue_5.4_projects\\bp_to_cpp\\plugins\\blueprinttocppnavigation\\source\\blueprinttocppnavigation\\private\\blueprinttocppnavigationmodule.cpp",
+        "ProvidedModule": "",
+        "PCH": "n:\\program files\\ue_5.4_projects\\bp_to_cpp\\intermediate\\build\\win64\\x64\\bp_to_cppeditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "Includes": [
+            "n:\\program files\\ue_5.4_projects\\bp_to_cpp\\plugins\\blueprinttocppnavigation\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\blueprinttocppnavigation\\definitions.blueprinttocppnavigation.h",
+            "n:\\program files\\ue_5.4_projects\\bp_to_cpp\\plugins\\blueprinttocppnavigation\\source\\blueprinttocppnavigation\\public\\blueprinttocppnavigationmodule.h",
+            "n:\\program files\\ue_5.4_projects\\bp_to_cpp\\plugins\\blueprinttocppnavigation\\source\\blueprinttocppnavigation\\public\\blueprinttocppnavigationeditormodecommands.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

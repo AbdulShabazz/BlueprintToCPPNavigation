@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "N:\\Program Files\\UE_5.4_Projects\\bp_to_cpp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{171578B9-58CA-3FB6-A777-8759158AAFAF}|Intermediate\\ProjectFiles\\bp_to_cpp.vcxproj|N:\\Program Files\\UE_5.4_Projects\\bp_to_cpp\\Plugins\\BlueprintToCPPNavigation\\Source\\BlueprintToCPPNavigation\\BlueprintToCPPNavigation.Build.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{171578B9-58CA-3FB6-A777-8759158AAFAF}|Intermediate\\ProjectFiles\\bp_to_cpp.vcxproj|solutionrelative:Plugins\\BlueprintToCPPNavigation\\Source\\BlueprintToCPPNavigation\\BlueprintToCPPNavigation.Build.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{171578B9-58CA-3FB6-A777-8759158AAFAF}|Intermediate\\ProjectFiles\\bp_to_cpp.vcxproj|N:\\Program Files\\UE_5.4_Projects\\bp_to_cpp\\Plugins\\BlueprintToCPPNavigation\\BlueprintToCPPNavigation.uplugin||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{171578B9-58CA-3FB6-A777-8759158AAFAF}|Intermediate\\ProjectFiles\\bp_to_cpp.vcxproj|solutionrelative:Plugins\\BlueprintToCPPNavigation\\BlueprintToCPPNavigation.uplugin||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlueprintToCPPNavigation.Build.cs",
+              "DocumentMoniker": "N:\\Program Files\\UE_5.4_Projects\\bp_to_cpp\\Plugins\\BlueprintToCPPNavigation\\Source\\BlueprintToCPPNavigation\\BlueprintToCPPNavigation.Build.cs",
+              "RelativeDocumentMoniker": "Plugins\\BlueprintToCPPNavigation\\Source\\BlueprintToCPPNavigation\\BlueprintToCPPNavigation.Build.cs",
+              "ToolTip": "N:\\Program Files\\UE_5.4_Projects\\bp_to_cpp\\Plugins\\BlueprintToCPPNavigation\\Source\\BlueprintToCPPNavigation\\BlueprintToCPPNavigation.Build.cs",
+              "RelativeToolTip": "Plugins\\BlueprintToCPPNavigation\\Source\\BlueprintToCPPNavigation\\BlueprintToCPPNavigation.Build.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T04:59:54.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BlueprintToCPPNavigation.uplugin",
+              "DocumentMoniker": "N:\\Program Files\\UE_5.4_Projects\\bp_to_cpp\\Plugins\\BlueprintToCPPNavigation\\BlueprintToCPPNavigation.uplugin",
+              "RelativeDocumentMoniker": "Plugins\\BlueprintToCPPNavigation\\BlueprintToCPPNavigation.uplugin",
+              "ToolTip": "N:\\Program Files\\UE_5.4_Projects\\bp_to_cpp\\Plugins\\BlueprintToCPPNavigation\\BlueprintToCPPNavigation.uplugin",
+              "RelativeToolTip": "Plugins\\BlueprintToCPPNavigation\\BlueprintToCPPNavigation.uplugin",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-20T04:52:22.953Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

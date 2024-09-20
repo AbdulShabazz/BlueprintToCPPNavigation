@@ -1,0 +1,18 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-BlueprintToCPPNavigation.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"N:\Program Files\UE_5.4_Projects\bp_to_cpp\Intermediate\Build\Win64\x64\bp_to_cppEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.h.obj"
+"N:\Program Files\UE_5.4_Projects\bp_to_cpp\Plugins\BlueprintToCPPNavigation\Intermediate\Build\Win64\x64\UnrealEditor\Development\BlueprintToCPPNavigation\Module.BlueprintToCPPNavigation.cpp.obj"
+"N:\Program Files\UE_5.4_Projects\bp_to_cpp\Plugins\BlueprintToCPPNavigation\Intermediate\Build\Win64\x64\UnrealEditor\Development\BlueprintToCPPNavigation\BlueprintToCPPNavigationEditorMode.cpp.obj"
+"N:\Program Files\UE_5.4_Projects\bp_to_cpp\Plugins\BlueprintToCPPNavigation\Intermediate\Build\Win64\x64\UnrealEditor\Development\BlueprintToCPPNavigation\BlueprintToCPPNavigationEditorModeCommands.cpp.obj"
+"N:\Program Files\UE_5.4_Projects\bp_to_cpp\Plugins\BlueprintToCPPNavigation\Intermediate\Build\Win64\x64\UnrealEditor\Development\BlueprintToCPPNavigation\BlueprintToCPPNavigationEditorModeToolkit.cpp.obj"
+"N:\Program Files\UE_5.4_Projects\bp_to_cpp\Plugins\BlueprintToCPPNavigation\Intermediate\Build\Win64\x64\UnrealEditor\Development\BlueprintToCPPNavigation\BlueprintToCPPNavigationModule.cpp.obj"
+"N:\Program Files\UE_5.4_Projects\bp_to_cpp\Plugins\BlueprintToCPPNavigation\Intermediate\Build\Win64\x64\UnrealEditor\Development\BlueprintToCPPNavigation\BlueprintToCPPNavigationInteractiveTool.cpp.obj"
+"N:\Program Files\UE_5.4_Projects\bp_to_cpp\Plugins\BlueprintToCPPNavigation\Intermediate\Build\Win64\x64\UnrealEditor\Development\BlueprintToCPPNavigation\BlueprintToCPPNavigationSimpleTool.cpp.obj"
+"N:\Program Files\UE_5.4_Projects\bp_to_cpp\Plugins\BlueprintToCPPNavigation\Intermediate\Build\Win64\x64\UnrealEditor\Development\BlueprintToCPPNavigation\Default.rc2.res"
+/OUT:"N:\Program Files\UE_5.4_Projects\bp_to_cpp\Plugins\BlueprintToCPPNavigation\Intermediate\Build\Win64\x64\UnrealEditor\Development\BlueprintToCPPNavigation\UnrealEditor-BlueprintToCPPNavigation.lib"

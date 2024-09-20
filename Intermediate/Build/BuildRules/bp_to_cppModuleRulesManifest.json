@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"N:\\Program Files\\UE_5.4_Projects\\bp_to_cpp\\Source\\bp_to_cpp\\bp_to_cpp.Build.cs",
+		"N:\\Program Files\\UE_5.4_Projects\\bp_to_cpp\\Plugins\\BlueprintToCPPNavigation\\Source\\BlueprintToCPPNavigation\\BlueprintToCPPNavigation.Build.cs",
+		"N:\\Program Files\\UE_5.4_Projects\\bp_to_cpp\\Source\\bp_to_cpp.Target.cs",
+		"N:\\Program Files\\UE_5.4_Projects\\bp_to_cpp\\Source\\bp_to_cppEditor.Target.cs"
+	],
+	"EngineVersion": "5.4.4"
+}

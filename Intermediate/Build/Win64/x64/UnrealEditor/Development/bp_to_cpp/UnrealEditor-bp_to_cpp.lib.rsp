@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-bp_to_cpp.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"N:\Program Files\UE_5.4_Projects\bp_to_cpp\Intermediate\Build\Win64\x64\bp_to_cppEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"N:\Program Files\UE_5.4_Projects\bp_to_cpp\Intermediate\Build\Win64\x64\UnrealEditor\Development\bp_to_cpp\bp_to_cpp.cpp.obj"
+"N:\Program Files\UE_5.4_Projects\bp_to_cpp\Intermediate\Build\Win64\x64\UnrealEditor\Development\bp_to_cpp\Default.rc2.res"
+/OUT:"N:\Program Files\UE_5.4_Projects\bp_to_cpp\Intermediate\Build\Win64\x64\UnrealEditor\Development\bp_to_cpp\UnrealEditor-bp_to_cpp.lib"

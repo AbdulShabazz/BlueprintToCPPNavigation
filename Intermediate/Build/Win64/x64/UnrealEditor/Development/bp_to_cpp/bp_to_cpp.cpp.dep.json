@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "n:\\program files\\ue_5.4_projects\\bp_to_cpp\\source\\bp_to_cpp\\bp_to_cpp.cpp",
+        "ProvidedModule": "",
+        "PCH": "n:\\program files\\ue_5.4_projects\\bp_to_cpp\\intermediate\\build\\win64\\x64\\bp_to_cppeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "n:\\program files\\ue_5.4_projects\\bp_to_cpp\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\bp_to_cpp\\definitions.bp_to_cpp.h",
+            "n:\\program files\\ue_5.4_projects\\bp_to_cpp\\source\\bp_to_cpp\\bp_to_cpp.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

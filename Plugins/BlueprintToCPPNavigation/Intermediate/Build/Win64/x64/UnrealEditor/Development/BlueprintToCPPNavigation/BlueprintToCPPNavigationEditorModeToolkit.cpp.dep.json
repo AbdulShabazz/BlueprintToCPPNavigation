@@ -1,0 +1,40 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "n:\\program files\\ue_5.4_projects\\bp_to_cpp\\plugins\\blueprinttocppnavigation\\source\\blueprinttocppnavigation\\private\\blueprinttocppnavigationeditormodetoolkit.cpp",
+        "ProvidedModule": "",
+        "PCH": "n:\\program files\\ue_5.4_projects\\bp_to_cpp\\intermediate\\build\\win64\\x64\\bp_to_cppeditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "Includes": [
+            "n:\\program files\\ue_5.4_projects\\bp_to_cpp\\plugins\\blueprinttocppnavigation\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\blueprinttocppnavigation\\definitions.blueprinttocppnavigation.h",
+            "n:\\program files\\ue_5.4_projects\\bp_to_cpp\\plugins\\blueprinttocppnavigation\\source\\blueprinttocppnavigation\\public\\blueprinttocppnavigationeditormodetoolkit.h",
+            "n:\\program files\\ue_5.4_projects\\bp_to_cpp\\plugins\\blueprinttocppnavigation\\source\\blueprinttocppnavigation\\public\\blueprinttocppnavigationeditormode.h",
+            "n:\\program files\\ue_5.4\\engine\\source\\editor\\unrealed\\public\\tools\\uedmode.h",
+            "n:\\program files\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealed\\uht\\uedmode.generated.h",
+            "n:\\program files\\ue_5.4_projects\\bp_to_cpp\\plugins\\blueprinttocppnavigation\\intermediate\\build\\win64\\unrealeditor\\inc\\blueprinttocppnavigation\\uht\\blueprinttocppnavigationeditormode.generated.h",
+            "n:\\program files\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\engine\\selection.h",
+            "n:\\program files\\ue_5.4\\engine\\source\\editor\\unrealed\\public\\selection.h",
+            "n:\\program files\\ue_5.4\\engine\\source\\runtime\\typedelementframework\\public\\elements\\framework\\typedelementlist.h",
+            "n:\\program files\\ue_5.4\\engine\\source\\runtime\\typedelementframework\\public\\elements\\framework\\typedelementcounter.h",
+            "n:\\program files\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\typedelementframework\\uht\\typedelementcounter.generated.h",
+            "n:\\program files\\ue_5.4\\engine\\source\\runtime\\typedelementruntime\\public\\elements\\framework\\typedelementselectionset.h",
+            "n:\\program files\\ue_5.4\\engine\\source\\runtime\\typedelementruntime\\public\\elements\\framework\\typedelementinterfacecustomization.h",
+            "n:\\program files\\ue_5.4\\engine\\source\\runtime\\typedelementruntime\\public\\elements\\framework\\typedelementlistobjectutil.h",
+            "n:\\program files\\ue_5.4\\engine\\source\\runtime\\typedelementruntime\\public\\elements\\interfaces\\typedelementselectioninterface.h",
+            "n:\\program files\\ue_5.4\\engine\\source\\runtime\\typedelementframework\\public\\elements\\framework\\typedelementlistproxy.h",
+            "n:\\program files\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\typedelementframework\\uht\\typedelementlistproxy.generated.h",
+            "n:\\program files\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\typedelementruntime\\uht\\typedelementselectioninterface.generated.h",
+            "n:\\program files\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\typedelementruntime\\uht\\typedelementselectionset.generated.h",
+            "n:\\program files\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealed\\uht\\selection.generated.h",
+            "n:\\program files\\ue_5.4\\engine\\source\\editor\\unrealed\\public\\editormodemanager.h",
+            "n:\\program files\\ue_5.4\\engine\\source\\runtime\\slate\\public\\widgets\\layout\\swidgetswitcher.h",
+            "n:\\program files\\ue_5.4\\engine\\source\\editor\\unrealed\\public\\edmode.h",
+            "n:\\program files\\ue_5.4\\engine\\source\\editor\\unrealed\\public\\editormoderegistry.h",
+            "n:\\program files\\ue_5.4\\engine\\source\\editor\\unrealed\\public\\tools\\legacyedmodewidgethelpers.h",
+            "n:\\program files\\ue_5.4\\engine\\source\\editor\\unrealed\\public\\tools\\legacyedmodeinterfaces.h",
+            "n:\\program files\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealed\\uht\\legacyedmodeinterfaces.generated.h",
+            "n:\\program files\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealed\\uht\\legacyedmodewidgethelpers.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

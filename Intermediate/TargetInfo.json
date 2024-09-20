@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "bp_to_cpp",
+			"Path": "..\\Source\\bp_to_cpp.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "bp_to_cppEditor",
+			"Path": "..\\Source\\bp_to_cppEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

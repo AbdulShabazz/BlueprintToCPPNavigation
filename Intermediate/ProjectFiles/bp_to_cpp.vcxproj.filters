@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\bp_to_cpp.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\bp_to_cpp.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\bp_to_cppEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\UpgradeLog.htm" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\BlueprintToCPPNavigation">
+      <UniqueIdentifier>{EF3E35AF-77DB-3245-88D0-4C9B6AD812B5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\BlueprintToCPPNavigation\Source">
+      <UniqueIdentifier>{F5B735FA-076A-3D41-85C7-9D9CAD5F9EC8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\BlueprintToCPPNavigation\Source\BlueprintToCPPNavigation">
+      <UniqueIdentifier>{89BF5667-D705-3992-BB0A-EAF57E783020}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\BlueprintToCPPNavigation\Source\BlueprintToCPPNavigation\BlueprintToCPPNavigation.Build.cs">
+      <Filter>Plugins\BlueprintToCPPNavigation\Source\BlueprintToCPPNavigation</Filter>
+    </None>
+    <Filter Include="Plugins\BlueprintToCPPNavigation\Source\BlueprintToCPPNavigation\Private">
+      <UniqueIdentifier>{EF38607F-BA89-3F41-90A8-7AD3A35B8061}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\BlueprintToCPPNavigation\Source\BlueprintToCPPNavigation\Private\BlueprintToCPPNavigationEditorMode.cpp">
+      <Filter>Plugins\BlueprintToCPPNavigation\Source\BlueprintToCPPNavigation\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\BlueprintToCPPNavigation\Source\BlueprintToCPPNavigation\Private\BlueprintToCPPNavigationEditorModeCommands.cpp">
+      <Filter>Plugins\BlueprintToCPPNavigation\Source\BlueprintToCPPNavigation\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\BlueprintToCPPNavigation\Source\BlueprintToCPPNavigation\Private\BlueprintToCPPNavigationEditorModeToolkit.cpp">
+      <Filter>Plugins\BlueprintToCPPNavigation\Source\BlueprintToCPPNavigation\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\BlueprintToCPPNavigation\Source\BlueprintToCPPNavigation\Private\BlueprintToCPPNavigationModule.cpp">
+      <Filter>Plugins\BlueprintToCPPNavigation\Source\BlueprintToCPPNavigation\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\BlueprintToCPPNavigation\Source\BlueprintToCPPNavigation\Private\Tools">
+      <UniqueIdentifier>{7EC384F5-B158-3F19-8889-7AB22A716CD6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\BlueprintToCPPNavigation\Source\BlueprintToCPPNavigation\Private\Tools\BlueprintToCPPNavigationInteractiveTool.cpp">
+      <Filter>Plugins\BlueprintToCPPNavigation\Source\BlueprintToCPPNavigation\Private\Tools</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\BlueprintToCPPNavigation\Source\BlueprintToCPPNavigation\Private\Tools\BlueprintToCPPNavigationInteractiveTool.h">
+      <Filter>Plugins\BlueprintToCPPNavigation\Source\BlueprintToCPPNavigation\Private\Tools</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\BlueprintToCPPNavigation\Source\BlueprintToCPPNavigation\Private\Tools\BlueprintToCPPNavigationSimpleTool.cpp">
+      <Filter>Plugins\BlueprintToCPPNavigation\Source\BlueprintToCPPNavigation\Private\Tools</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\BlueprintToCPPNavigation\Source\BlueprintToCPPNavigation\Private\Tools\BlueprintToCPPNavigationSimpleTool.h">
+      <Filter>Plugins\BlueprintToCPPNavigation\Source\BlueprintToCPPNavigation\Private\Tools</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\BlueprintToCPPNavigation\Source\BlueprintToCPPNavigation\Public">
+      <UniqueIdentifier>{226434F1-442F-3C69-9E3D-2B60E7C6DBB6}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\BlueprintToCPPNavigation\Source\BlueprintToCPPNavigation\Public\BlueprintToCPPNavigationEditorMode.h">
+      <Filter>Plugins\BlueprintToCPPNavigation\Source\BlueprintToCPPNavigation\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\BlueprintToCPPNavigation\Source\BlueprintToCPPNavigation\Public\BlueprintToCPPNavigationEditorModeCommands.h">
+      <Filter>Plugins\BlueprintToCPPNavigation\Source\BlueprintToCPPNavigation\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\BlueprintToCPPNavigation\Source\BlueprintToCPPNavigation\Public\BlueprintToCPPNavigationEditorModeToolkit.h">
+      <Filter>Plugins\BlueprintToCPPNavigation\Source\BlueprintToCPPNavigation\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\BlueprintToCPPNavigation\Source\BlueprintToCPPNavigation\Public\BlueprintToCPPNavigationModule.h">
+      <Filter>Plugins\BlueprintToCPPNavigation\Source\BlueprintToCPPNavigation\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\BlueprintToCPPNavigation\BlueprintToCPPNavigation.uplugin">
+      <Filter>Plugins\BlueprintToCPPNavigation</Filter>
+    </None>
+    <Filter Include="Plugins\BlueprintToCPPNavigation\Resources">
+      <UniqueIdentifier>{6D0B38A1-E6AA-3597-BA5D-EE6FEE42DB64}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\BlueprintToCPPNavigation\Resources\Icon128.png">
+      <Filter>Plugins\BlueprintToCPPNavigation\Resources</Filter>
+    </None>
+    <Filter Include="Source\bp_to_cpp">
+      <UniqueIdentifier>{BD28B6F5-4662-3E05-B158-4CEB23CF2E45}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\bp_to_cpp\bp_to_cpp.Build.cs">
+      <Filter>Source\bp_to_cpp</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\bp_to_cpp\bp_to_cpp.cpp">
+      <Filter>Source\bp_to_cpp</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\bp_to_cpp\bp_to_cpp.h">
+      <Filter>Source\bp_to_cpp</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

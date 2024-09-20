@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.BlueprintToCPPNavigation.cpp.obj": [
+			"BlueprintToCPPNavigation.init.gen.cpp.obj",
+			"BlueprintToCPPNavigationEditorMode.gen.cpp.obj",
+			"BlueprintToCPPNavigationInteractiveTool.gen.cpp.obj",
+			"BlueprintToCPPNavigationSimpleTool.gen.cpp.obj",
+			"BlueprintToCPPNavigationEditorMode.cpp.obj",
+			"BlueprintToCPPNavigationEditorModeCommands.cpp.obj",
+			"BlueprintToCPPNavigationEditorModeToolkit.cpp.obj",
+			"BlueprintToCPPNavigationModule.cpp.obj",
+			"BlueprintToCPPNavigationInteractiveTool.cpp.obj",
+			"BlueprintToCPPNavigationSimpleTool.cpp.obj"
+		]
+	}
+}
