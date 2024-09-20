@@ -10,6 +10,7 @@
 # Precompiled Headers
 *.gch
 *.pch
+*.ipch
 
 # Compiled Dynamic libraries
 *.so
@@ -25,8 +26,19 @@
 *.la
 *.a
 *.lib
+*.db
+*.sqlite
 
 # Executables
 *.exe
 *.out
 *.app
+
+#.vs/bp_to_cpp/v17/Browse.VC.db
+#.vs/bp_to_cpp/v17/ipch/**
+#.vs/bp_to_cpp/v17/Solution.VC.db
+#.vs/slnx.sqlite
+#Intermediate/Build/Win64/x64
+
+
+
