@@ -7,30 +7,33 @@ def get_unreal_python_path():
     """
     Prompt the user to input the Unreal Engine Python module path and validate it.
     """
-    while True:
-        unreal_path = input(
-            "Enter the full path to your Unreal Engine Python modules (e.g., "
-            "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Plugins\\Experimental\\PythonScriptPlugin\\Binaries\\Win64): "
-        ).strip('"').strip()
+    if len(sys.argv) > 1:
+        return sys.argv[1]
+    else:
+        while True:
+            unreal_path = input(
+                "Enter the full path to your Unreal Engine Python modules (e.g., "
+                "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Plugins\\Experimental\\PythonScriptPlugin\\Binaries\\Win64): "
+            ).strip('"').strip()
 
-        if not os.path.exists(unreal_path):
-            print(f"Error: The path '{unreal_path}' does not exist. Please try again.\n")
-            continue
-
-        # Optional: Check for specific files or folders to validate the path
-        # For example, check if 'unreal.py' exists in the path
-        expected_file = os.path.join(unreal_path, 'unreal.py')
-        if not os.path.isfile(expected_file):
-            print(
-                f"Warning: 'unreal.py' not found in '{unreal_path}'. "
-                "Please ensure this is the correct path."
-            )
-            proceed = input("Do you want to proceed? (y/n): ").lower()
-            if proceed != 'y':
-                print("Let's try entering the path again.\n")
+            if not os.path.exists(unreal_path):
+                print(f"Error: The path '{unreal_path}' does not exist. Please try again.\n")
                 continue
 
-        return unreal_path
+            # Optional: Check for specific files or folders to validate the path
+            # For example, check if 'unreal.py' exists in the path
+            expected_file = os.path.join(unreal_path, 'unreal.py')
+            if not os.path.isfile(expected_file):
+                print(
+                    f"Warning: 'unreal.py' not found in '{unreal_path}'. "
+                    "Please ensure this is the correct path."
+                )
+                proceed = input("Do you want to proceed? (y/n): ").lower()
+                if proceed != 'y':
+                    print("Let's try entering the path again.\n")
+                    continue
+
+            return unreal_path
 
 def get_user_environment_variable(var_name):
     """

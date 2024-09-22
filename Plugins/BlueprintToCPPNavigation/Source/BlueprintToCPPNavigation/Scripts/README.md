@@ -42,7 +42,7 @@ Before using the scripts in this toolkit, ensure that your system meets the foll
    Clone this repository to your local machine using Git:
 
    ```bash
-   git clone https://github.com/yourusername/unreal-python-toolkit.git
+   git clone https://github.com/Seagat2011/BlueprintToCPPNavigation.git
    ```
 
    Alternatively, you can download the repository as a ZIP file and extract it to your desired directory.
@@ -50,7 +50,7 @@ Before using the scripts in this toolkit, ensure that your system meets the foll
 2. **Navigate to the Directory**:
 
    ```bash
-   cd unreal-python-toolkit
+   cd BlueprintToCPPNavigation
    ```
 
 3. **Ensure Python is Installed**:
@@ -86,7 +86,7 @@ The `add_unreal_engine_python_modules_to_PYTHONPATH.py` script automates the pro
 2. **Navigate to the Toolkit Directory**:
 
    ```bash
-   cd path\to\unreal-python-toolkit
+   cd path\to\BlueprintToCPPNavigation
    ```
 
 3. **Run the Script**:
@@ -147,7 +147,7 @@ The `BlueprintTranspiler.py` script allows you to convert a given Unreal Engine 
 3. **Navigate to the Toolkit Directory**:
 
    ```bash
-   cd path\to\unreal-python-toolkit
+   cd path\to\BlueprintToCPPNavigation
    ```
 
 4. **Run the Script with a Blueprint GUID**:
@@ -170,7 +170,7 @@ The `BlueprintTranspiler.py` script allows you to convert a given Unreal Engine 
 
    ```
    Successfully converted Blueprint GUID 1234567890abcdef1234567890abcdef to C++ code.
-   Output saved to: C:\path\to\unreal-python-toolkit\GeneratedCpp\Blueprint_1234567890abcdef1234567890abcdef.cpp
+   Output saved to: C:\path\to\BlueprintToCPPNavigation\GeneratedCpp\Blueprint_1234567890abcdef1234567890abcdef.cpp
    ```
 
 6. **Review the Generated C++ Code**:
