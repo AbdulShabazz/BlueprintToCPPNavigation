@@ -2,7 +2,7 @@
 
 Welcome to the **Unreal Engine Python Integration Toolkit**, a collection of Python scripts designed to streamline and enhance your Unreal Engine development workflow. This toolkit includes:
 
-1. **`update_pythonpath.py`**: Automates the process of updating the `PYTHONPATH` environment variable to include Unreal Engine's Python modules.
+1. **`add_unreal_engine_python_modules_to_PYTHONPATH.py`**: Automates the process of updating the `PYTHONPATH` environment variable to include Unreal Engine's Python modules.
 2. **`BlueprintTranspiler.py`**: Converts Unreal Engine Blueprint GUIDs into equivalent C++ code, facilitating a seamless transition between visual scripting and code-based development.
 
 ---
@@ -17,7 +17,7 @@ Welcome to the **Unreal Engine Python Integration Toolkit**, a collection of Pyt
   - [2. Converting Blueprint GUID to C++](#2-converting-blueprint-guid-to-cpp)
     - [Usage Example](#usage-example-1)
 - [Script Descriptions](#script-descriptions)
-  - [`update_pythonpath.py`](#update_pythonpathpy)
+  - [`add_unreal_engine_python_modules_to_PYTHONPATH.py`](#add_unreal_engine_python_modules_to_PYTHONPATHpy)
   - [`BlueprintTranspiler.py`](#BlueprintTranspilerpy)
 - [Additional Notes](#additional-notes)
 - [Contributing](#contributing)
@@ -71,11 +71,11 @@ Before using the scripts in this toolkit, ensure that your system meets the foll
 
 ## Usage
 
-The toolkit consists of two main scripts: `update_pythonpath.py` and `BlueprintTranspiler.py`. Below are detailed instructions on how to use each script.
+The toolkit consists of two main scripts: `add_unreal_engine_python_modules_to_PYTHONPATH.py` and `BlueprintTranspiler.py`. Below are detailed instructions on how to use each script.
 
 ### 1. Updating PYTHONPATH
 
-The `update_pythonpath.py` script automates the process of adding Unreal Engine's Python module path to the `PYTHONPATH` environment variable on Windows.
+The `add_unreal_engine_python_modules_to_PYTHONPATH.py` script automates the process of adding Unreal Engine's Python module path to the `PYTHONPATH` environment variable on Windows.
 
 #### Usage Example
 
@@ -92,7 +92,7 @@ The `update_pythonpath.py` script automates the process of adding Unreal Engine'
 3. **Run the Script**:
 
    ```bash
-   python update_pythonpath.py
+   python add_unreal_engine_python_modules_to_PYTHONPATH.py
    ```
 
 4. **Provide the Unreal Engine Python Module Path**:
@@ -181,7 +181,7 @@ The `BlueprintTranspiler.py` script allows you to convert a given Unreal Engine 
 
 ## Script Descriptions
 
-### `update_pythonpath.py`
+### `add_unreal_engine_python_modules_to_PYTHONPATH.py`
 
 **Purpose**: Automates the addition of Unreal Engine's Python module path to the `PYTHONPATH` environment variable on Windows systems.
 
@@ -227,7 +227,7 @@ python BlueprintTranspiler.py 1234567890abcdef1234567890abcdef
 
 ## Additional Notes
 
-- **Administrator Privileges**: The `update_pythonpath.py` script modifies user-level environment variables and typically does not require administrative privileges. However, modifying system-wide environment variables would require elevated permissions.
+- **Administrator Privileges**: The `add_unreal_engine_python_modules_to_PYTHONPATH.py` script modifies user-level environment variables and typically does not require administrative privileges. However, modifying system-wide environment variables would require elevated permissions.
 
 - **Virtual Environments**: If you are using Python virtual environments, ensure that the `PYTHONPATH` is correctly set within the environment to include Unreal Engine's Python modules.
 
