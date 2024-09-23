@@ -26,11 +26,11 @@ def get_unreal_python_path():
             if not os.path.isfile(expected_file):
                 print(
                     f"Warning: 'unreal.py' module not found in '{unreal_path}'. "
-                    "Please ensure this is the correct path."
+                    "Please ensure this path is correct."
                 )
                 proceed = input("Do you want to proceed? (y/n): ").lower()
                 if proceed != 'y':
-                    print("Let's try entering the path again.\n")
+                    print("Try entering the path again.\n")
                     continue
 
             return unreal_path
